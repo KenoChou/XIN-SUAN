@@ -8,14 +8,14 @@
   ],
   "window": {
     "navigationBarTitleText": "薪算",
-    "navigationBarBackgroundColor": "#F7F8F6",
+    "navigationBarBackgroundColor": "#F8F5EF",
     "navigationBarTextStyle": "black",
-    "backgroundColor": "#F7F8F6"
+    "backgroundColor": "#F8F5EF"
   },
   "tabBar": {
-    "color": "#8A918D",
-    "selectedColor": "#167B63",
-    "backgroundColor": "#FFFFFF",
+    "color": "#969184",
+    "selectedColor": "#55745B",
+    "backgroundColor": "#FFFEFB",
     "borderStyle": "white",
     "list": [
       {

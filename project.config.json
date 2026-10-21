@@ -1,1 +1,16 @@
-{"description":"薪算微信小程序","miniprogramRoot":"./","compileType":"miniprogram","libVersion":"3.8.8","appid":"touristappid","projectname":"XIN-SUAN","setting":{"urlCheck":false,"es6":true,"enhance":true,"postcss":true,"minified":true},"condition":{}}
+{
+  "description": "薪算微信小程序",
+  "miniprogramRoot": "./",
+  "compileType": "miniprogram",
+  "libVersion": "3.8.8",
+  "appid": "wx3d33cf424718ec33",
+  "projectname": "XIN-SUAN",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true
+  },
+  "condition": {}
+}

@@ -10,3 +10,15 @@
 .tools-caption{font-size:21rpx;color:#9A978B;margin-top:5rpx;letter-spacing:.2rpx}
 .all-tools-link{display:flex;align-items:center;gap:10rpx;padding:8rpx 9rpx 8rpx 16rpx;border:1rpx solid #E8E2D6;border-radius:999rpx;background:#FFFEFB;color:#657B61;font-size:22rpx;font-weight:600;white-space:nowrap}
 .all-tools-arrow{width:34rpx;height:34rpx;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#E9EDE2;color:#55745B;font-size:21rpx;line-height:1}
+
+/* Responsive layout hardening for iPad and wide mini-program viewports */
+.salary-cta{display:flex;width:100%;max-width:100%;box-sizing:border-box;min-width:0;line-height:1.25;white-space:normal;flex-shrink:0}
+.salary-cta .cta-copy{flex:1;min-width:0;max-width:calc(100% - 78rpx);overflow:hidden}
+.salary-cta .cta-kicker{display:block;max-width:100%;font-size:clamp(14rpx,1.8vw,17rpx);letter-spacing:1.5rpx;line-height:1.4;white-space:nowrap}
+.salary-cta .cta-title{display:block;max-width:100%;font-size:clamp(27rpx,3.6vw,30rpx);line-height:1.35;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.salary-cta .cta-arrow{flex:0 0 54rpx;width:54rpx;height:54rpx;box-sizing:border-box;margin-left:18rpx}
+@media screen and (min-width: 700px){
+ .salary-cta{height:104rpx;padding-left:32rpx;padding-right:28rpx}
+ .salary-cta .cta-title{font-size:29rpx}
+ .salary-cta .cta-arrow{width:50rpx;height:50rpx;flex-basis:50rpx}
+}
